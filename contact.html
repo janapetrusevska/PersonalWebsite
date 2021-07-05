@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Personal WebPage</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&amp;display=swap" rel="stylesheet">
+     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+</head>
+<body data-spy="scroll" data-target=".navbar" data-offset="51">
+    <div class="navbar navbar-expand-lg bg-light navbar-light">
+        <div class="container-fluid">
+            <a href="home.html" class="brand">J.P.</a>
+            <button type="button" class="navbar-toggler collapsed" data-toggle="collapse" data-target="#navbarCollapse" aria-expanded="false">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="navbar-collapse justify-content-between collapse" id="navbarCollapse">
+                <div class="navbar-nav ml-auto">
+                    <a href="home.html" class="nav-item nav-link ">Home</a>
+                    <a href="about.html" class="nav-item nav-link">About</a>
+                    <a href="experience.html" class="nav-item nav-link">Experience</a>
+                    <a href="contact.html" class="nav-item nav-link active">Contact</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="contact wow fadeInUp" data-wow-delay="0.1s" id="contact" style="visibility: visible; animation-delay: 0.1s; animation-name: fadeInUp;">
+        <div class="container-fluid">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-md-4"></div>
+                    <div class="col-md-8">
+                        <div class="contact-form">
+                            <h2 class="contact-me">Contact me here!</h2>
+                            <div id="success"></div>
+                            <form name="sentMessage" id="contactForm" novalidate="novalidate">
+                                <div class="control-group">
+                                    <input type="text" class="form-control" placeholder="Your Name..." required="required" data-validation-required-message="Please enter your name">
+                                </div>
+                                <div class="control-group">
+                                    <input type="email" class="form-control" placeholder="Your Email...." required="required" data-validation-required-message="Please enter your email">
+                                </div>
+                                <div class="control-group">
+                                    <input type="text" class="form-control" placeholder="Subject..." required="required" data-validation-required-message="Please enter a subject" aria-invalid="false">
+                                </div>
+                                <div class="control-group">
+                                    <textarea class="form-control" placeholder="Message..." required="required" data-validation-required-message="Please enter your message"></textarea>
+                                </div>
+                                <div>
+                                    <button class="btn" type="submit" id="sendMessageButton">Send message</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="container-fluid">
+            <div class="container">
+                <div class="footer-info">
+                    <h4>Jana Petrusevska</h4>
+                    <h5>123 Street, Skopje, North Macedonia</h5>
+                    <div class="footer-menu">
+                        <p>+389 70 123 456</p>
+                        <p>janapetrusevska10@gmail.com</p>
+                    </div>
+            <div class="container copyright">
+                <p>© <a href="home.html">J.P.</a>, All Right Reserved</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
